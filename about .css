@@ -351,7 +351,7 @@ make the text appear at center */
 
 #floated {
 	font-size: 1rem;
-    font-weight: 700;
+    font-weight: 600;
     word-wrap:normal;
 }
 
@@ -362,13 +362,28 @@ make the text appear at center */
     word-wrap: break-word;
 }
 
+.biography {
+	font-weight: 500;
+	text-align: center;
+}
+
 .items {
     font-size: 1rem;
+	background-color: #00407f;
+	color: white;
+	text-decoration: none;
+	padding: 25px;
+	border-radius: 5px;
 }
 
 .item_list {
-    font-weight: 700;
+	text-decoration: none;
+    font-weight: 500;
+	padding: 5px;
     font-size: 1rem;
+	background-color: #00407f;
+	color: white;
+	
 }
 
 .item

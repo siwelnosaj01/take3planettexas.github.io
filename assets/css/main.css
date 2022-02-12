@@ -3065,6 +3065,15 @@ body.is-touch .tiles article .content {
 	}
 }
 
+.title_description  {
+	text-align: center;
+	font-weight: 500;
+}
+
+.title_page {
+	text-align: center;
+}
+
 /* Menu */
 
 #wrapper {
