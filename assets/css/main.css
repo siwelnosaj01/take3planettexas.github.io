@@ -2473,6 +2473,19 @@ input[type='radio'] + label:before {
 	.image.main {
 		margin: 0 0 2em 0;
 	}
+
+	@media screen and (max-width: 736px) {
+	@-o-viewport {
+    
+}
+
+img {
+    width: 90vw !important;
+    height: auto;
+}
+
+
+}
 }
 
 /* Table */
@@ -3068,8 +3081,9 @@ body.is-touch .tiles article .content {
 }
 
 .title_description  {
+	margin-top: 25px;
 	text-align: center;
-	font-weight: 500;
+	font-weight: 600;
 }
 
 .title_page {
