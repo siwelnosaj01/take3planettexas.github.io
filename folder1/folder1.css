@@ -1,8 +1,14 @@
+
+
+@media screen and (max-width: 736px) {
 @-o-viewport {
     
 }
 
+
+
 img {
-    width: 10vw !important;
+    width: 90vw !important;
     height: auto;
+}
 }

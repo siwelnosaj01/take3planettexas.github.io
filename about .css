@@ -317,6 +317,10 @@ make the text appear at center */
 	justify-content: center;
 }
 
+.container	{
+	display: flex;
+}
+
 #floated {
 	font-size: 2rem;
     font-weight: 700;
@@ -331,10 +335,18 @@ make the text appear at center */
 }
 
 .items {
-    font-size: 4rem;
+    margin-top: 10px;
+    font-size: 2rem;
+	background-color: #00407f;
+	color: white;
+	text-decoration: none;
+	padding: 25px;
+	border-radius: 5px;
+	
 }
 
 .item_list {
+	
     font-weight: 700;
     font-size: 2rem;
 }
@@ -352,11 +364,12 @@ make the text appear at center */
 #floated {
 	font-size: 1rem;
     font-weight: 600;
-    word-wrap:normal;
+    text-align: center;
 }
 
 .jupiter {
-    width: 300px;
+	
+    width: 200px;
     height: auto;
     border-radius: 50%;
     word-wrap: break-word;
@@ -368,6 +381,7 @@ make the text appear at center */
 }
 
 .items {
+	margin-top: 10px;
     font-size: 1rem;
 	background-color: #00407f;
 	color: white;

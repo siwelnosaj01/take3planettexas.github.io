@@ -2953,13 +2953,15 @@ body.is-touch .tiles article .content {
 }
 
 #header .logo .symbol {
-	margin-right: 0.65em;
+	margin-right: .65em;
+	
 }
 
 #header .logo .symbol img {
 	display: block;
 	width: 50%;
 	height: auto;
+	margin-bottom: 25px;
 }
 
 #header nav {
