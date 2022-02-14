@@ -217,6 +217,8 @@ textarea {
 	line-height: 1.75;
 }
 
+
+
 @media screen and (max-width: 1680px) {
 	body,
 	input,
@@ -1886,6 +1888,8 @@ header p {
 	margin-top: -1em;
 }
 
+
+
 @media screen and (max-width: 736px) {
 	header p {
 		margin-top: 0;
@@ -2475,17 +2479,14 @@ input[type='radio'] + label:before {
 	}
 
 	@media screen and (max-width: 736px) {
-	@-o-viewport {
-    
-}
+		@-o-viewport {
+		}
 
-img {
-    width: 90vw !important;
-    height: auto;
-}
-
-
-}
+		img {
+			width: 90vw !important;
+			height: auto;
+		}
+	}
 }
 
 /* Table */
@@ -2966,8 +2967,7 @@ body.is-touch .tiles article .content {
 }
 
 #header .logo .symbol {
-	margin-right: .65em;
-	
+	margin-right: 0.65em;
 }
 
 #header .logo .symbol img {
@@ -3080,14 +3080,14 @@ body.is-touch .tiles article .content {
 	}
 }
 
-.title_description  {
+.title_description {
 	margin-top: 25px;
 	text-align: center;
 	font-weight: 600;
 }
 
 .title_page {
-	text-align: center;
+	text-align: c;
 }
 
 /* Menu */

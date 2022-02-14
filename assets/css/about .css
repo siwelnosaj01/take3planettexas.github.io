@@ -33,7 +33,6 @@ html {
 
 	/* Now we will add a border radius of 
     5px to make the logo image circular */
-	
 }
 
 .navbar {
@@ -317,72 +316,26 @@ make the text appear at center */
 	justify-content: center;
 }
 
-.container	{
+.container {
 	display: flex;
 }
 
 #floated {
 	font-size: 2rem;
-    font-weight: 700;
-    word-wrap:normal;
+	font-weight: 700;
+	word-wrap: normal;
 }
 
 .jupiter {
-    width: 300px;
-    height: auto;
-    border-radius: 50%;
-    word-wrap: break-word;
-}
-
-.items {
-    margin-top: 10px;
-    font-size: 2rem;
-	background-color: #00407f;
-	color: white;
-	text-decoration: none;
-	padding: 25px;
-	border-radius: 5px;
-	
-}
-
-.item_list {
-	
-    font-weight: 700;
-    font-size: 2rem;
-}
-
-.item
-
-.back_to_top {
-    font-size:  4rem;
-}
-
-@media screen and (max-width: 736px) {
-	
-
-
-#floated {
-	font-size: 1rem;
-    font-weight: 600;
-    text-align: center;
-}
-
-.jupiter {
-	
-    width: 200px;
-    height: auto;
-    border-radius: 50%;
-    word-wrap: break-word;
-}
-
-.biography {
-	font-weight: 500;
-	text-align: center;
+	width: 300px;
+	height: auto;
+	border-radius: 50%;
+	word-wrap: break-word;
 }
 
 .items {
 	margin-top: 10px;
-    font-size: 1rem;
+	font-size: 2rem;
 	background-color: #00407f;
 	color: white;
 	text-decoration: none;
@@ -391,18 +344,53 @@ make the text appear at center */
 }
 
 .item_list {
-	text-decoration: none;
-    font-weight: 500;
-	padding: 5px;
-    font-size: 1rem;
-	background-color: #00407f;
-	color: white;
-	
+	font-weight: 700;
+	font-size: 2rem;
 }
 
-.item
-
-.back_to_top {
-    font-size:  4rem;
+.item .back_to_top {
+	font-size: 4rem;
 }
+
+@media screen and (max-width: 736px) {
+	#floated {
+		font-size: 1rem;
+		font-weight: 600;
+		text-align: center;
+	}
+
+	.jupiter {
+		width: 200px;
+		height: auto;
+		border-radius: 50%;
+		word-wrap: break-word;
+	}
+
+	.biography {
+		font-weight: 500;
+		text-align: center;
+	}
+
+	.items {
+		margin-top: 10px;
+		font-size: 1rem;
+		background-color: #00407f;
+		color: white;
+		text-decoration: none;
+		padding: 25px;
+		border-radius: 5px;
+	}
+
+	.item_list {
+		text-decoration: none;
+		font-weight: 500;
+		padding: 5px;
+		font-size: 1rem;
+		background-color: #00407f;
+		color: white;
+	}
+
+	.item .back_to_top {
+		font-size: 4rem;
+	}
 }
