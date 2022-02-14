@@ -1,0 +1,26 @@
+
+
+/* .video  {
+    display: 
+    width: 100%;
+    height: auto;
+    
+} */
+
+.price {
+    font-size: 3rem;
+    width: 40%;
+    background-color: #00407f;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.sold {
+    font-size: 3rem;
+    width: 40%;
+    background-color: #c5e944;
+    color: rgb(14, 2, 2);
+    padding: 10px;
+    border-radius: 8px;
+}
