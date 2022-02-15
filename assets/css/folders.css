@@ -7,6 +7,8 @@
     
 } */
 
+
+
 .price {
     font-size: 3rem;
     width: 40%;
@@ -23,4 +25,26 @@
     color: rgb(14, 2, 2);
     padding: 10px;
     border-radius: 8px;
+}
+
+@media screen and (max-width: 1265px) {
+	.price {
+    font-size: 1rem;
+    width: 50%;
+    background-color: #00407f;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.sold {
+    font-size: 1rem;
+    width: 50%;
+    background-color: #c5e944;
+    color: rgb(14, 2, 2);
+    padding: 10px;
+    border-radius: 8px;
+}
+
+
 }

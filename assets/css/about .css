@@ -29,7 +29,7 @@ html {
 	/* The logo image will have a border,
     that has a width of 2px and the color 
     of the border is white */
-	border: 2px solid white;
+	/* border: 2px solid white; */
 
 	/* Now we will add a border radius of 
     5px to make the logo image circular */

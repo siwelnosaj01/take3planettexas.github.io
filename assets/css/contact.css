@@ -1,0 +1,14 @@
+.contact_footer {
+    display: inline;
+    text-align: center;
+}
+
+.contact_inner {
+    display: inline;
+    text-align: center;
+}
+
+input {
+    text-align: center;
+    font-size: 2rem;
+}
