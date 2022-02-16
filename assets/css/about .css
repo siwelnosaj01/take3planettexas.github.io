@@ -326,7 +326,7 @@ make the text appear at center */
 	word-wrap: normal;
 }
 
-.jupiter {
+.jupiter, .elizabeth {
 	width: 300px;
 	height: auto;
 	border-radius: 50%;
