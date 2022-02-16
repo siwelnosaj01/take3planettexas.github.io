@@ -2724,6 +2724,7 @@ button:disabled,
 	flex-wrap: wrap;
 	postiion: relative;
 	margin: -2.5em 0 0 -2.5em;
+	
 }
 
 .tiles article {
@@ -2825,6 +2826,7 @@ button:disabled,
 	text-align: center;
 	text-decoration: none;
 	z-index: 3;
+	
 }
 
 .tiles article > a > :last-child {
@@ -2851,7 +2853,7 @@ button:disabled,
 	opacity: 0;
 }
 
-.tiles article > a .content > :last-child {
+/* .tiles article > a .content > :last-child {
 	margin-bottom: 0;
 }
 
@@ -2877,7 +2879,7 @@ button:disabled,
 
 .tiles article.style6 > .image:before {
 	background-color: #8499e7;
-}
+} */
 
 body:not(.is-touch) .tiles article:hover > .image {
 	-moz-transform: scale(1.1);
