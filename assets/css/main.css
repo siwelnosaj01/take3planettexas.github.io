@@ -218,8 +218,6 @@ textarea {
 	line-height: 1.75;
 }
 
-
-
 @media screen and (max-width: 1680px) {
 	body,
 	input,
@@ -270,7 +268,7 @@ p {
 }
 
 h1 {
-	font-size: 2.75em;
+	font-size: 1.75em;
 	font-weight: 700;
 	line-height: 1.3;
 	margin: 0 0 1em 0;
@@ -1889,8 +1887,6 @@ header p {
 	margin-top: -1em;
 }
 
-
-
 @media screen and (max-width: 736px) {
 	header p {
 		margin-top: 0;
@@ -2428,10 +2424,6 @@ input[type='radio'] + label:before {
 	box-shadow: 5px 5px 10px 2px;
 }
 
-
-
-
-
 .image img {
 	border-radius: 4px;
 	display: block;
@@ -2488,13 +2480,13 @@ input[type='radio'] + label:before {
 }
 
 .image .main:hover {
-	position:relative;
-    top:-25px;
-    left:-35px;
-    width:500px;
-    height:auto;
-    display:block;
-    z-index:999;
+	position: relative;
+	top: -25px;
+	left: -35px;
+	width: 500px;
+	height: auto;
+	display: block;
+	z-index: 999;
 }
 
 @media screen and (max-width: 736px) {
@@ -2713,7 +2705,6 @@ button:disabled,
 /* Tiles */
 
 .tiles {
-	
 	display: -moz-flex;
 	display: -webkit-flex;
 	display: -ms-flex;
@@ -2724,7 +2715,6 @@ button:disabled,
 	flex-wrap: wrap;
 	postiion: relative;
 	margin: -2.5em 0 0 -2.5em;
-	
 }
 
 .tiles article {
@@ -2826,7 +2816,6 @@ button:disabled,
 	text-align: center;
 	text-decoration: none;
 	z-index: 3;
-	
 }
 
 .tiles article > a > :last-child {
@@ -2991,6 +2980,7 @@ body.is-touch .tiles article .content {
 #header .logo > * {
 	display: inline-block;
 	vertical-align: middle;
+	width: 50%;
 }
 
 #header .logo .symbol {
@@ -3003,6 +2993,7 @@ body.is-touch .tiles article .content {
 	height: auto;
 	margin-bottom: 25px;
 }
+
 
 #header nav {
 	position: fixed;
@@ -3091,8 +3082,6 @@ body.is-touch .tiles article .content {
 	opacity: 0;
 }
 
-
-
 @media screen and (max-width: 736px) {
 	#header {
 		padding: 4em 0 0.1em 0;
@@ -3113,6 +3102,7 @@ body.is-touch .tiles article .content {
 	margin-top: 25px;
 	text-align: center;
 	font-weight: 600;
+	font-size: 1.5rem;
 }
 
 .title_page {
