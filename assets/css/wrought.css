@@ -17,8 +17,8 @@
 
 
 @media screen and (min-width: 860px) {
-	.title_description {
-		/* font-size: 3rem; */
+	.title_description_wrought p {
+		font-size: 3rem;
 	}
 	h2 {
 		font-size: 2rem;
