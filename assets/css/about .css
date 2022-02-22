@@ -340,7 +340,7 @@ make the text appear at center */
 	background-color: #00407f;
 	color: white;
 	text-decoration: none;
-	padding: 25px;
+	padding: 55px;
 	border-radius: 5px;
 }
 
@@ -362,9 +362,9 @@ make the text appear at center */
 }
 
 .venmo {
-	background-color: white; 
+	background-color: none !important;
 	width: 30%;
-	color: black;	
+	color: White;	
 	font-size: 1rem;
 	margin-top: 5px;
 }
